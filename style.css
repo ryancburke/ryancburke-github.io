@@ -205,7 +205,7 @@ body {
 }
 
 #publications {
-    background-image: linear-gradient(rgba(0,0.8,0.8, 0.8), rgba(0, 0.8, 0.8, 0.8)), url(img6.jpg);
+    background-image: linear-gradient(rgba(0,0.8,0.8, 0.8), rgba(0, 0.8, 0.8, 0.8)), url(img1.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef !important;
@@ -526,7 +526,7 @@ img {
 
 
         #tutorials {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(img2k2.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(img1.jpg);
             background-size: cover;
             background-position: center;
             color: #efefef !important;
