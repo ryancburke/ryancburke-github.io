@@ -1,0 +1,309 @@
+<html>
+
+<head>
+    <title> My Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="skills-diagram.coderbits.js"></script>
+
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+      
+
+
+         
+      </head>
+
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#publications">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#certs">Certificates</a>
+                    </li>
+                </ul>
+                <div class="abc">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/ryancburke">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/ryanburkephd/">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://medium.com/@ryancburke8">Medium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://www.hackerrank.com/ryancburke8">HackerRank</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+    <!--Slider-->
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerSlider" data-slide-to="1"></li>
+                <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="img1.jpg" alt="First slide"> 
+                    <div class="carousel-caption">
+                        <h1>Hi, I'm <span class="decorate"> Ryan. </span>
+                            <br> Welcome to my data science portfolio! </h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img2.jpg" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h1>Hi, I'm <span class="decorate"> Ryan. </span>
+                            <br> Welcome to my data science portfolio! </h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img3.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h1>Hi, I'm <span class="decorate"> Ryan. </span>
+                            <br> Welcome to my data science portfolio! </h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+        <!-- Gallery -->
+<section id="gallery">
+    <br><br>
+    <h1>Some Things I've Worked On</h1>
+
+    <div class="row">
+        <div class="column">
+          <img class="zoom" src="p1.jpg" >
+          <img  class="zoom" src="p2.jpg">
+      </div>
+      <div class="column">
+        <img  class="zoom" src="p3.jpg">
+    </div>
+    
+    </div>
+    </section>
+
+    <!--About-->
+    <section id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+
+                    <div class="about-content">
+                        <h2>About Me</h2>
+                        
+                        <p style="font-size:21px;">
+                            <br>Hi, my name is Ryan Burke. I currently work as a freelance data scientist, but I think of myself as an explorer and story-teller. I fell in love with data more than a decade ago.
+							It's an amazing feeling to sail through an ocean of data! Sometimes it's messy and choppy. Other times it's smooth sailing. Yet, with focus and a child-like curiosity, I can always
+							find a treasure! 
+                            <br><br>During my free time, I really enjoy learning. I'm constantly working on aquiring and refining new skills. I will showcase some of my projects here, and link them to their GitHub repositories.
+                            
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    
+
+    <section id="publications">
+        <div class="container p-0">
+            <h1>Projects & Publications</h1>
+            <div class="row portfolio-row justify-content-center">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://github.com/ryancburke/blindness_detection">
+                            <h5>Using convolutional neural networks (CNN) and transfer learning to classify diabetic retinopathy  </h5>
+                        </a>
+                        <p class="project-des">
+                            <br>In this project, I used a clinical imaging dataset from Kaggle. I demonstrated how transfer learning could be used to significantly improve model accuracy.
+                            <br><br>Skills demonstrated: Python, EDA, data collection, data wrangling, data visualization, image processing, CNN
+                            
+                        </p>
+                        <div class="row">
+                            <a target="_blank" href="https://github.com/ryancburke/blindness_detection">
+                                <img class="portfolio-img" src="p1.jpg">
+
+                            </a>
+
+                        </div>
+
+                        <div class="row">
+                            
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://github.com/ryancburke/blindness_detection" class="button">Code</a>
+
+                            </div>
+
+
+                        </div>
+
+                    </div> 
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://github.com/ryancburke/Breast_cancer_Wisconsin_Kaggle">
+                            <h5>Classifying benign vs malignant breast tissues based on clinical data </h5>
+                        </a>
+                        <p class="project-des">
+                            <br>In this project, I analyzed the Breast Cancer Wisconsin dataset from Kaggle. Using a series of tissue morphological variables, I used a 
+							Random Forest to classify benign and malignant tissue samples.
+                            <br><br>Skills demonstrated: Python, ML algorithms, EDA, data visualization
+                            
+                        </p>
+                        <div class="row">
+                            <a target="_blank" href="https://github.com/ryancburke/Breast_cancer_Wisconsin_Kaggle">
+                                <img class="portfolio-img" src="p3.jpg">
+
+                            </a>
+
+                        </div>
+
+                        <div class="row">
+                            
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://github.com/ryancburke/Breast_cancer_Wisconsin_Kaggle" class="button">Code</a>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <a target="_blank" class="title-linkk" href="https://github.com/ryancburke/cancer-nutrition">
+                            <br>
+                            <h5>Nutrition and cancer: Time-series analysis </h5>
+                        </a>
+                        <p class="project-des">
+                            <br>In this project, I gathered data for the incidence of the top 5 cancer killers in 28 countries from the WHO. From the FAO, data for the consumption of 39 nutrition variables were used in a time-series prediction model.
+                            <br><br>Skills demonstrated: Python, EDA, data visualization, ML models, time series 
+                            
+                        </p>
+                        <div class="row">
+                            <a target="_blank" href="https://github.com/ryancburke/cancer-nutrition">
+                                <img class="portfolio-img" src="p4.jpg">
+
+                            </a>
+                        </div>
+
+                        <div class="row">
+                            
+                            <div class="col-6 text-center">
+                                <a target="_blank" href="https://github.com/ryancburke/cancer-nutrition/blob/master/Cancer_and_nutrition_comparing_Ridge%2C_Lasso%2C_ElasticNet_and_Random_Forest_Regression_analyses.ipynb" class="button">Code</a>
+
+                            </div>
+
+
+                        </div>
+                        </div>
+                        </div>
+                        
+                        
+                    
+                        
+    </section>
+
+    
+
+
+    <section id="certs">
+        <div class="container">
+            <br>
+            <h1>Courses & Certificates</h1>
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-3 profile-pic text-center">
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/8PESRPFMX88G">
+                        <div class="img box">
+                            <img src="c1.pdf" class="img-responsive">
+
+                        </div>
+                    </a>
+                    <br>
+                    <a target="_blank" class="title-linkk" href="https://www.coursera.org/learn/global-financial-markets-instruments">
+                        <h5> &nbsp Global Financial Markets and Instruments - Coursera</h5>
+                    </a>
+
+                </div>
+
+                <div class="col-md-3 profile-pic text-center">
+                    <a target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/course/00669384d338295964c62b1c4a4bb2a030893bd2">
+                        <div class="img box">
+                            <img src="c2.pdf" class="img-responsive">
+
+                        </div>
+                    </a>
+                    <br>
+                    <a target="_blank" class="title-linkk" href="https://learn.datacamp.com/courses/introduction-to-sql">
+                        <h5> &nbsp Introduction to SQL - Datacamp </h5>
+                    </a>
+
+                </div>
+
+
+                </div>
+                                
+                </section>
+
+                
+
+
+
+
+
+</body>
+
+</html>
